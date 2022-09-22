@@ -7,8 +7,8 @@ rule MaliciousLink {
         $link_001 = "www.pornhub.com"
         $link_002 = "www.epochtimes.com"
         $link_003 = "chinadigitaltimes.net"
-        $link_003 = "bannedbook.org"
-        $link_003 = "rfa.org"
+        $link_004 = "bannedbook.org"
+        $link_005 = "rfa.org"
     
     condition:
         any of them
